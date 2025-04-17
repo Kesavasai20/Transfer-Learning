@@ -50,9 +50,8 @@ criterion = nn.CrossEntropyLoss()
 optimizer = optim.Adam(model.classifier.parameters(), lr=0.001)
 
 
-
-# Train the model
-def train_model(model, train_loader,test_loader,num_epochs=30):
+## Step 3: Train the Model
+def train_model(model, train_loader,test_loader,num_epochs=10):
     train_losses = []
     val_losses = []
     model.train()
@@ -100,29 +99,20 @@ def train_model(model, train_loader,test_loader,num_epochs=30):
 
 ## OUTPUT
 ### Training Loss, Validation Loss Vs Iteration Plot
-Include your plot here
-</br>
-</br>
-</br>
+![image](https://github.com/user-attachments/assets/5520aa00-639a-4b5a-95ac-2cb89fb00832)
+
 
 ### Confusion Matrix
-Include confusion matrix here
-</br>
-</br>
-</br>
+![image](https://github.com/user-attachments/assets/8c2feaa3-8877-4af7-be76-766b0554a877)
+
 
 ### Classification Report
-Include Classification Report here
-</br>
-</br>
-</br>
+![image](https://github.com/user-attachments/assets/c99c5f91-c3b6-4e89-828d-d212d3810b98)
+
 
 ### New Sample Prediction
-</br>
-</br>
-</br>
+![image](https://github.com/user-attachments/assets/e5d446df-d718-4424-89b5-e1a8dc21799d)
+
 
 ## RESULT
-</br>
-</br>
-</br>
+Successfully executed the program for Implementation of transfer learning.
